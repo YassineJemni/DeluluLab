@@ -137,7 +137,13 @@ export default function Home() {
                 tag="hot"
                 onClick={() => router.push("/scan/roster")}
               />
-              <ToolCard title="Red Flag Scan" emoji="🚩" desc="am i the red flag?" tag="soon" locked />
+              <ToolCard
+                title="Voice Note Check"
+                emoji="🎙️"
+                desc="how delulu do you sound?"
+                tag="hot"
+                onClick={() => router.push("/scan/voice")}
+              />
               <ToolCard
                 title="Break Up?"
                 emoji="💀"
